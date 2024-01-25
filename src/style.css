@@ -1,0 +1,45 @@
+.texto{
+  font-size: 20px;
+  color: red;
+  padding: 25px;
+}
+
+html{
+  background-color: gray;
+}
+
+li{
+  list-style: none;
+}
+
+.complete, .incomplete{
+  user-select: none;
+  cursor: pointer;
+  font-size: 16px;
+  /* color: rgba(0, 0, 0, 0.4); */
+  margin-right: 3px;
+}
+
+.incomplete{
+  font-size: 15px;
+}
+
+.complete{
+  color: green;
+}
+
+.incomplete{
+  color: red;
+}
+
+.delete{
+  font-size: 15px;
+  margin-left: 5px;
+  color: rgba(0, 0, 0, 0.7);
+  /* color: rgba(255, 255, 255, 0.475); */
+}
+
+.delete:hover{
+  user-select: none;
+  cursor: pointer;
+}
