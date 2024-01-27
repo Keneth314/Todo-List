@@ -1,5 +1,11 @@
-function CountTodo({ checkTodo, totalTodo }) {
+import React from "react";
+import { TodoContext } from './TodoContext'
 
+function CountTodo() {
+    const {
+        checkTodo,
+        totalTodo,
+    } = React.useContext(TodoContext)
     return (
 
         checkTodo === totalTodo && checkTodo !== 0
